@@ -44,11 +44,7 @@
 <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/style.css">
 
-  <!-- ✅ Scripts (non minifiés, chargés en defer) -->
-<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="./assets/maugallery.js" defer></script>
-  <script src="./assets/scripts.js" defer></script>
+
 
   <!-- ✅ LocalBusiness schema.org pour SEO local -->
   <script type="application/ld+json">
@@ -72,7 +68,7 @@
 </head>
 
 <body>
-<div class="top-header">
+<header class="top-header">
 	<h1 class="name">Nina Carducci</h1>
 	<div class="nav">   
 		<ul>
@@ -83,7 +79,7 @@
 			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp"  alt="Logo" width="800" loading="lazy"></a></li>
 		</ul>
 	</div>
-</div>
+</header>
 <div id="header">
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -192,7 +188,7 @@
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
 </div>
-<div id="contact">
+<footer id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h2>Une question ? Une demande de devis ?</h2>
@@ -211,6 +207,12 @@
 			<img src="./assets/images/camera.webp" alt="camera" width="800" height="600" loading="lazy">
 		</div>
 	</div>
-</div>
+</footer>
+
+  <!-- ✅ Scripts (non minifiés, chargés en defer) -->
+<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="./assets/maugallery.js" defer></script>
+  <script src="./assets/scripts.js" defer></script>
 </body>
 </html>
